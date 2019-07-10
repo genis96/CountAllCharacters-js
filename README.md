@@ -38,6 +38,6 @@ function countAllCharacters(str) {
     }
     return newObjStr; // (6)
 }
-
 var output = countAllCharacters('banana');
-console.log(output); // --> {b: 1, a: 3, n: 2}
+console.log(output); 
+// --> {b: 1, a: 3, n: 2}
