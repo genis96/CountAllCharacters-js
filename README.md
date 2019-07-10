@@ -28,8 +28,8 @@ console.log(output); // --> {b: 1, a: 3, n: 2}
 /* My Solution */
 
 function countAllCharacters(str) {
-    var newObjStr = {}; // (1)
 
+    var newObjStr = {}; // (1)
     for(var i = 0; i < str.length; i++) { // (2)
         if(newObjStr[str[i]] === undefined) { // (3)
             (newObjStr[str[i]]) = 0; // (4)
